@@ -23,9 +23,9 @@ button {
   cursor: pointer;
 }
 
-/* address {
+address {
   font-style: normal;
-} */
+}
 
 img {
   display: block;
@@ -35,7 +35,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   background-color: var(--main-background-color);
-  color: #434455; /*var(-main-text-color)*/
+  color: var(-main-text-color);
 }
 
 .list {
@@ -100,13 +100,11 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  /* IRIS */
   color: #4d5ae5;
   font-style: normal;
 }
 
 .logo-top-second {
-  /* NAVY BLUE */
   color: #2e2f42;
   margin-right: 76px;
 }
@@ -126,14 +124,12 @@ body {
   font-size: 16px;
   line-height: calc(24 / 16);
   letter-spacing: 0.02em;
-  /* NAVY BLUE */
   color: #2e2f42;
 }
 
 .header-link:hover,
 .header-link:focus,
 .header-link:active {
-  /* OCEAN */
   color: #404bbf;
 }
 
@@ -142,16 +138,12 @@ body {
   font-size: 16px;
   line-height: (24/16);
   letter-spacing: 0.02em;
-  /* SLATE */
   color: #434455;
-  /* font-style: normal; */
 }
-/*  font-style: normal; for auto cheak -this is up :-)*/
 
 /* --------- HERO ----------------------------------------- */
 
 .hero {
-  /* NAVY BLUE */
   background: var(--main-hero-color);
   padding-top: 188px;
   padding-bottom: 188px;
@@ -160,7 +152,7 @@ body {
 .hero-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07; /*60px*/
+  line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
@@ -246,14 +238,10 @@ body {
   flex-basis: auto;
 }
 
-/* .doing {
-  padding-bottom: 120px;
-} */
-
 .doing-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11; /* 40px -> calc(40 / 36)* auto test ERROR*/
+  line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -278,11 +266,10 @@ body {
 .team-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11; /* 40px -> calc(40 / 36)* auto test ERROR*/
+  line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  /* NAVY BLUE */
   color: #2e2f42;
   margin-bottom: 72px;
 }
@@ -297,7 +284,6 @@ body {
   line-height: calc(24 / 20);
   text-align: center;
   letter-spacing: 0.02em;
-  /* NAVY BLUE */
   color: #2e2f42;
   background-color: #ffffff;
   margin-top: 32px;
@@ -309,7 +295,6 @@ body {
   line-height: calc(24 / 16);
   text-align: center;
   letter-spacing: 0.02em;
-  /* SLATE */
   color: #434455;
   background-color: #ffffff;
   margin-bottom: 32px;
@@ -318,7 +303,6 @@ body {
 /* --------- FOOTER  ----------------------------------------- */
 
 .footer {
-  /* NAVY BLUE */
   background-color: #2e2f42;
   padding-top: 100px;
   padding-bottom: 100px;
@@ -331,15 +315,14 @@ body {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.17; /*calc(21 / 18)*/
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  font-style: normal; /*!!! in link this OK*/
+  font-style: normal;
 }
 
 .logo-bottom-second {
-  /* CLOUD */
   color: #f4f4fd;
 }
 
@@ -348,7 +331,6 @@ body {
   font-size: 16px;
   line-height: calc(24 / 16);
   letter-spacing: 0.02em;
-  /* CORNFLOWER */
   color: #e7e9fc;
   width: 264px;
   margin-top: 16px;
@@ -360,22 +342,21 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.5; /*24px*/
-  display: flex;
+  line-height: 1.5; 
   align-items: center;
-  text-align: center;
   letter-spacing: 0.04em;
-  /* IRIS */
   color: #4d5ae5;
-  /* CLOUD */
   background-color: #f4f4fd;
   border-style: none;
+
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+  padding: 12px 24px;
 }
 
 .filter-button-text:hover,
 .filter-button-text:focus {
   color: #ffffff;
-  /* OCEAN */
   background-color: #404bbf;
   cursor: pointer;
 }
@@ -401,28 +382,14 @@ body {
   gap: 48px 24px;
 }
 
-.filter-button-text {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  color: #4d5ae5;
-
-  border: 1px solid #e7e9fc;
-  border-radius: 4px;
-  padding: 12px 24px;
-}
-
 .gallery-list li {
   width: calc((100% - 48px) / 3);
 }
 .galley-item-titel {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.2; /*24px*/
+  line-height: 1.2; 
   letter-spacing: 0.02em;
-  /* NAVY BLUE */
   color: #2e2f42;
   margin-top: 32px;
   margin-left: 16px;
@@ -434,7 +401,6 @@ body {
   font-size: 16px;
   line-height: calc(24 / 16);
   letter-spacing: 0.02em;
-  /* SLATE */
   color: #434455;
   margin-left: 16px;
   text-align: left;
