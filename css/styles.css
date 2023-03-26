@@ -31,13 +31,6 @@ img {
   display: block;
 }
 
-body {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  background-color: var(--main-background-color);
-  color: var(-main-text-color);
-}
-
 .list {
   list-style: none;
 }
@@ -47,12 +40,20 @@ body {
   font-style: normal;
 }
 
+body {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  background-color: var(--main-background-color);
+  color: var(-main-text-color);
+}
+
+
 .container {
   width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  /* outline: 2px solid red; */
+  outline: 2px solid red;
 }
 
 .section {
@@ -227,6 +228,10 @@ body {
 }
 
 /* --------- DOING  ----------------------------------------- */
+
+.doing {
+  padding-bottom: 120px;
+}
 
 .doing-list {
   display: flex;
