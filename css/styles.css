@@ -47,7 +47,6 @@ body {
   color: var(-main-text-color);
 }
 
-
 .container {
   width: 1158px;
   padding-left: 15px;
@@ -67,7 +66,7 @@ body {
   background-color: #ffffff;
   padding-top: 24px;
   padding-bottom: 24px;
-  border-bottom: 1px solid #E7E9FC;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .header-container {
@@ -287,6 +286,8 @@ body {
 .team-item-description {
   padding-top: 32px;
   padding-bottom: 32px;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 .team-item-title {
@@ -353,7 +354,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.5; 
+  line-height: 1.5;
   align-items: center;
   letter-spacing: 0.04em;
   color: #4d5ae5;
@@ -403,14 +404,14 @@ body {
   padding-right: auto;
   padding-bottom: 32px;
   padding-left: 16px;
-  border: 1px solid #E7E9FC;
+  border: 1px solid #e7e9fc;
   border-top: none;
 }
 
 .galley-item-titel {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.2; 
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
   /* margin-top: 32px; */
